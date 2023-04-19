@@ -1,0 +1,89 @@
+#______________________________________API___________________________________________________#
+
+
+
+curl 'https://bimebazar.com/accounts/api/login_sec/' \
+  -H 'authority: bimebazar.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en,fa;q=0.9' \
+  -H 'authorization;' \
+  -H 'content-type: application/json' \
+  -H 'cookie: bimebazar=idk8vsjnkimpc1nze7p63hj521khdj3j; _gcl_au=1.1.192897264.1681881738; analytics_token=a4482aba-98de-3f36-5d5f-57aca6c70d43; analytics_session_token=b3ff4351-f6cc-b1be-1029-216675b2f605; yektanet_session_last_activity=4/19/2023; _yngt_iframe=1; _ga_WHESKHKZE8=GS1.1.1681881738.1.0.1681881738.0.0.0; _yngt=257a3268-f722-4c0d-84f7-b896db39f792; _ga_0Q8JFWRH3D=GS1.1.1681881738.1.0.1681881738.60.0.0; _ga=GA1.2.73945639.1681881738; _gid=GA1.2.168137880.1681881739; _gat_UA-112414241-1=1; _clck=e7fpza|1|faw|0; _clsk=ilnfd7|1681881740139|1|1|p.clarity.ms/collect' \
+  -H 'origin: https://bimebazar.com' \
+  -H 'referer: https://bimebazar.com/login/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  --data-raw '{"username":"0'$phone_number'"}' \
+  --compressed
+
+#______________________________________API___________________________________________________#
+
+
+curl 'https://api.accounts.kplus.holdings/api/auth/users/register/' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en,fa;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://accounts.kplus.holdings' \
+  -H 'Referer: https://accounts.kplus.holdings/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"phone_number":"98'$phone_number'","srv":"baazigooshi"}' \
+  --compressed
+
+
+
+#______________________________________API___________________________________________________#
+
+
+curl 'https://api.snapp.market/mart/v1/user/loginMobileWithNoPass?cellphone=0'$phone_number'&platform=PWA' \
+  -X 'POST' \
+  -H 'authority: api.snapp.market' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en,fa;q=0.9' \
+  -H 'content-length: 0' \
+  -H 'origin: https://m.snapp.market' \
+  -H 'referer: https://m.snapp.market/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  --compressed
+
+
+#______________________________________API___________________________________________________#
+
+
+
+curl 'https://api.snapp.market/mart/v1/user/loginMobileWithNoPass?cellphone=0'$phone_number'&platform=PWA' \
+  -X 'POST' \
+  -H 'authority: api.snapp.market' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en,fa;q=0.9' \
+  -H 'content-length: 0' \
+  -H 'origin: https://m.snapp.market' \
+  -H 'referer: https://m.snapp.market/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  --compressed
+
+
+#______________________________________API___________________________________________________#
